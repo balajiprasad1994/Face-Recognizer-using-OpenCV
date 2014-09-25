@@ -1,0 +1,28 @@
+﻿Build started 18-04-2014 18:30:39.
+     1>Project "C:\Users\Vardaan\documents\visual studio 2010\Projects\Face_Recognizer\Face_Recognizer\Face_Recognizer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\Face_Recognizer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\Build\x64\vc10\..\..\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt source.cpp
+         source.cpp
+     1>source.cpp(187): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Vardaan\documents\visual studio 2010\Projects\Face_Recognizer\x64\Debug\Face_Recognizer.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\Build\x64\vc10\lib opencv_core248d.lib opencv_imgproc248d.lib opencv_highgui248d.lib opencv_ml248d.lib opencv_video248d.lib opencv_features2d248d.lib opencv_calib3d248d.lib opencv_objdetect248d.lib opencv_contrib248d.lib opencv_legacy248d.lib opencv_flann248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\Face_Recognizer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Vardaan\documents\visual studio 2010\Projects\Face_Recognizer\x64\Debug\Face_Recognizer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Vardaan\documents\visual studio 2010\Projects\Face_Recognizer\x64\Debug\Face_Recognizer.lib" /MACHINE:X64 x64\Debug\Face_Recognizer.exe.embed.manifest.res
+         x64\Debug\source.obj
+         Face_Recognizer.vcxproj -> C:\Users\Vardaan\documents\visual studio 2010\Projects\Face_Recognizer\x64\Debug\Face_Recognizer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\Face_Recognizer.exe.embed.manifest" /manifest x64\Debug\Face_Recognizer.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Face_Recognizer.vcxproj -> C:\Users\Vardaan\documents\visual studio 2010\Projects\Face_Recognizer\x64\Debug\Face_Recognizer.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\Face_Recognizer.unsuccessfulbuild".
+         Touching "x64\Debug\Face_Recognizer.lastbuildstate".
+     1>Done Building Project "C:\Users\Vardaan\documents\visual studio 2010\Projects\Face_Recognizer\Face_Recognizer\Face_Recognizer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.11
